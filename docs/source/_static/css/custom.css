@@ -1,0 +1,18 @@
+.sphinxsidebar {
+    position: sticky;
+    top: 0;
+    float: left;
+    width: 230px;
+    margin-left: -100%;
+    font-size: 90%;
+    word-wrap: break-word;
+    overflow-wrap : break-word;
+}
+
+.sphinxsidebar #searchbox input[type="submit"] {
+    float: left;
+    width: fit-content;
+    border-left: none;
+    padding: 0.25em;
+    box-sizing: border-box;
+}
